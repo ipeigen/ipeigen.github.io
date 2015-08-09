@@ -1,13 +1,22 @@
 
-  <!DOCTYPE HTML>
+  
+    <!DOCTYPE HTML>
 <html >
 <head>
   <meta charset="UTF-8">
   
-    <title>歸檔 | 培根军团</title>
+    <title>关于培根军团 | 培根军团</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=3, minimum-scale=1">
     
     <meta name="author" content="团长">
+    
+    <meta name="description" content="没什么，就是有个粉丝军团，
+名字叫培根军团，我是团长，
+目前全军人数1人
+于是全票通过军团团长选举，
+于是就义不容辞的建立本站点，
+方便团中的粉丝相互交流，
+那，今天先说到这吧。">
     
     
     
@@ -52,9 +61,9 @@ var _hmt = _hmt || [];
 </script>
 </head>
 
-    <body>
-      <header>
-        <div>
+      <body>
+        <header>
+          <div>
 		
 			<div id="imglogo">
 				<a href="/"><img src="/img/logo.png" alt="培根军团" title="培根军团"/></a>
@@ -89,49 +98,58 @@ var _hmt = _hmt || [];
 				</ul>
 			</nav>	
 </div>
-      </header>
-      <div id="container" class="clearfix">
-        
-
-<div class="archive-title" >
-  <h2 class="archive-icon">歸檔</h2>
-  
-  <div class="archiveslist archive-float clearfix">
-   <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/08/">2015年 08月</a><span class="archive-list-count">1</span></li></ul>
- </div>
-  
-</div>
-<div id="main" class="archive-part clearfix">
-  <div id="archive-page">
-
-  <section class="post" itemscope itemprop="blogPost">
-  <article>
-    <h1 itemprop="name">
-      
-        <a href="/2015/08/07/i-have-a-dream/" title="培根军团团长发言" itemprop="url">
-      
-        培根军团团长发言
-      </a>
-    </h1>
+        </header>
+        <div id="container" class="clearfix">
+          <div id="main" class="page" itemscope itemprop="blogPost">
+	<article itemprop="articleBody"> 
+		<header class="article-info clearfix">
+  <h1 itemprop="name">
     
-    <p class="article-more-link">
-      <time datetime="2015-08-07T05:09:09.000Z" itemprop="datePublished">2015-08-07</time>
-      
-          <a href="/2015/08/07/i-have-a-dream/">阅读更多&raquo;</a>
-      
-    </p>
+      <a href="/about/index.html" title="关于培根军团" itemprop="url">关于培根军团</a>
+  </h1>
+  <p class="article-time">
+    <time datetime="2015-08-09T07:03:59.000Z" itemprop="datePublished">2015-08-09</time>
+  </p>
+</header>
+	<div class="article-content">
+		
+		
+		<p>没什么，就是有个粉丝军团，</p>
+<p>名字叫培根军团，我是团长，</p>
+<p>目前全军人数1人，</p>
+<p>于是全票通过军团团长选举，</p>
+<p>于是就义不容辞的建立本站点，</p>
+<p>方便团中的粉丝相互交流，</p>
+<p>那，今天先说到这吧。</p>
+  
+	</div>
+		<footer class="article-footer clearfix">
 
-  </article>
+
+
+
+<div class="article-share" id="share">
+
+  <div data-url="http://ipeigen.com/about/index.html" data-title="关于培根军团 | 培根军团" data-tsina="null" class="share clearfix">
+  </div>
+
+</div>
+</footer>   	       
+	</article>
+	
+	
+<section class="comment">
+	
+	<div class="ds-thread"></div>
+	
 </section>
 
 
-  </div>
-</div>
-
-      </div>
-    <!--<footer><div id="footer" >
+</div>  
+        </div>
+        <!--<footer><div id="footer" >
 </div></footer>-->
-    <script src="/js/jquery-2.1.0.min.js"></script>
+        <script src="/js/jquery-2.1.0.min.js"></script>
 <script type="text/javascript">
 $(document).ready(function(){ 
   //back to top
@@ -207,10 +225,72 @@ $(document).ready(function(){
 </script>
 
 
+<script type="text/javascript">
+$(document).ready(function(){ 
+  var $this = $('.share'),
+      url = $this.attr('data-url'),
+      encodedUrl = encodeURIComponent(url),
+      title = $this.attr('data-title'),
+      tsina = $this.attr('data-tsina');
+  var html = [
+  '<a href="#" class="overlay" id="qrcode"></a>',
+  '<div class="qrcode clearfix"><span>扫描二维码分享到微信朋友圈</span><a class="qrclose" href="#share"></a><strong>Loading...Please wait</strong><img id="qrcode-pic" data-src="http://s.jiathis.com/qrcode.php?url=' + encodedUrl + '"/></div>',
+  '<a href="#textlogo" class="article-back-to-top" title="Top"></a>',
+  '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="article-share-facebook" target="_blank" title="Facebook"></a>',
+  '<a href="#qrcode" class="article-share-qrcode" title="QRcode"></a>',
+  '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="article-share-twitter" target="_blank" title="Twitter"></a>',
+  '<a href="http://service.weibo.com/share/share.php?title='+title+'&url='+encodedUrl +'&ralateUid='+ tsina +'&searchPic=true&style=number' +'" class="article-share-weibo" target="_blank" title="Weibo"></a>',
+  '<span title="Share to"></span>'
+  ].join('');
+  $this.append(html);
+  $('.article-share-qrcode').click(function(){
+    var imgSrc = $('#qrcode-pic').attr('data-src');
+    $('#qrcode-pic').attr('src', imgSrc);
+    $('#qrcode-pic').load(function(){
+        $('.qrcode strong').text(' ');
+    });
+  });
+});     
+</script>
+
+
+<script type="text/javascript">
+  var duoshuoQuery = {short_name:"ipengen"};
+  (function() {
+    var ds = document.createElement('script');
+    ds.type = 'text/javascript';ds.async = true;
+    ds.src = '//static.duoshuo.com/embed.js';    //change to ds.src = '/js/embed.js'; to add useragent for duoshuo
+    ds.charset = 'UTF-8';
+    (document.getElementsByTagName('head')[0] 
+    || document.getElementsByTagName('body')[0]).appendChild(ds);
+  })();
+</script> 
 
 
 
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.css" media="screen" type="text/css">
+<script src="/fancybox/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){ 
+  $('.article-content').each(function(i){
+    $(this).find('img').each(function(){
+      if ($(this).parent().hasClass('fancybox')) return;
+      var alt = this.alt;
+      if (alt) $(this).after('<span class="caption">' + alt + '</span>');
+      $(this).wrap('<a href="' + this.src + '" title="' + alt + '" class="fancybox"></a>');
+    });
+    $(this).find('.fancybox').each(function(){
+      $(this).attr('rel', 'article' + i);
+    });
+  });
+  if($.fancybox){
+    $('.fancybox').fancybox();
+  }
+}); 
+</script>
 
 
-    </body>
-   </html>
+
+      </body>
+     </html>
+     
